@@ -1,0 +1,30 @@
+.App {
+  /* border: 1px solid; */
+  width: 100%;
+  background-color: aqua;
+  height: 100vh;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 80px;
+}
+.time {
+  font-size: 45px;
+  font-weight: 600;
+  padding: 25px 30px;
+  border: 1px solid;
+  width: 50%;
+  border-radius: 12px;
+  text-align: center;
+}
